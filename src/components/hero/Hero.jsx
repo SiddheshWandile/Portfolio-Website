@@ -98,7 +98,7 @@ const Hero = () => {
         Software Developer and DevOps Engineer
       </motion.div>
       <div className="imageContainer">
-        <img src="/hero.jpg" alt="" />
+        <img src="https://media.licdn.com/dms/image/sync/D5610AQGcsnZw8iVJBQ/image-shrink_800/0/1697596202632?e=1702998000&v=beta&t=Vf-84AgdFUeI_93Ys7Dx6Iad0nvcjw0l8tbxzwgSqf8" alt="" />
       </div>
     </div>
   );
