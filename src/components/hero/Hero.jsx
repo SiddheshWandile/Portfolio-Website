@@ -95,7 +95,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Software Developer and DevOps Engineer
+        Software Developer and Web Developer
       </motion.div>
       <div className="imageContainer">
         <img src="public/0001.jpeg" alt="" />
