@@ -29,8 +29,6 @@ const Services = () => {
       className="services"
       variants={variants}
       initial="initial"
-      // animate="animate"
-      // whileInView="animate"
       ref={ref}
       animate={"animate"}
     >
@@ -43,7 +41,6 @@ const Services = () => {
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
-          {/* <img src="/people.webp" alt="" /> */}
           <h1>
             <motion.b whileHover={{color:"orange"}}>Education</motion.b> 
           </h1>

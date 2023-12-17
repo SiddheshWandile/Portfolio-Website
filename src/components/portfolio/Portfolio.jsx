@@ -21,12 +21,12 @@ const items = [
     img: "https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fblog_post_page%2Fcontent%2Fcover_image_file%2Fcover_image%2F1285448%2Fretina_500x200_cover-what-is-kubernetes-02516750b825c872fa32c7005355a22e.png",
     desc: "Demonstrates how to package a web application as a Docker container image and run it on a Google Kubernetes Engine (GKE) cluster. The web application is then deployed as a load-balanced collection of replicas that can scale to meet the demands of your users. ",
   },
-  // {
-  //   id: 4,
-  //   title: "Music App",
-  //   img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-  //   desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-  // },
+  {
+    id: 4,
+    title: "Jarvis - a Python-based personal AI assistant",
+    img: "https://repository-images.githubusercontent.com/367071568/a0833ac3-dfd7-4386-951f-b59e0caa8c96",
+    desc: "Leveraged Python and natural language processing to develop Jarvis, a personal AI assistant capable of scheduling appointments, controlling smart devices, and providing real-time information. Improved daily efficiency by 20% and reduced manual tasks by 30%.",
+  },
 ];
 
 const Single = ({ item }) => {
