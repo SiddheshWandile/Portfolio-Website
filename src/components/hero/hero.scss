@@ -26,7 +26,7 @@
 
       @include mobile {
         height: 50%;
-        width: 100%;
+        width: 95%;
         gap: 20px;
         align-items: center;
         text-align: center;
@@ -75,13 +75,16 @@
     width: 40%;
     border-radius: 10%;
     position: absolute;
+    // align-items: center;
     top: 0;
     right: 0;
     margin: 55px;
 
     @include mobile {
-      height: 50%;
-      width: 100%;
+      // align-items: center;
+      // margin-left: 55px;
+      height: 40%;
+      width: 75%;
       top: unset;
       bottom: 0;
     }
