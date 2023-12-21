@@ -126,14 +126,21 @@
         padding: 10px;
       }
 
+      h2{
+        @include mobile{
+          font-size: 23px;
+        }
+      }
+
       p {
         // letter-spacing: 0.5px;
         margin: 6px;
         text-align: justify;
         @include mobile {
           display: none;
-          // font-size: 10px;
-          // margin: 6px;
+          font-size: 15px !important;
+          // line-height: 20px;
+          margin: 0px !important;
           // text-align: justify;
         }
       }

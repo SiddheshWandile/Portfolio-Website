@@ -6,39 +6,6 @@
   flex-direction: column;
   justify-content: space-between;
 
-  .textContainer {
-    flex: 1;
-    align-self: flex-end;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-
-    @include mobile {
-      align-self: center;
-      text-align: center;
-      flex-direction: column;
-    }
-
-    p {
-      margin-top: 25px;
-      margin-left: 10px;
-      font-weight: 200;
-      font-size: 20px;
-      color: gray;
-      text-align: right;
-    }
-
-    hr {
-      width: 500px;
-      border: none;
-      border-top: 0.5px solid gray;
-
-      @include mobile {
-        width: 300px;
-        margin-left: 20px;
-      }
-    }
-  }
   .titleContainer {
     flex: 2;
     display: flex;
@@ -47,6 +14,7 @@
     margin-top: 0;
 
     @include mobile {
+      // margin-top: 62vw;
       width: 100%;
     }
 
@@ -66,23 +34,9 @@
         font-weight: 100;
 
         @include mobile {
-          font-size: 6px;
-        }
-      }
-
-      button {
-        width: 300px;
-        height: 100px;
-        border-radius: 50px;
-        background-color: orange;
-        border: none;
-        font-size: 24px;
-        cursor: pointer;
-
-        @include mobile {
-          font-size: 16px;
-          width: 150px;
-          height: 50px;
+          font-size: 50px !important;
+          // margin-top: 10px;
+          margin-bottom: 10px;
         }
       }
     }
@@ -90,12 +44,15 @@
   .listContainer {
     flex: 2;
     display: flex;
-    max-width: 1366px;
+    // max-width: 1366px;
     margin: auto;
+    // width: 100vw;
+    // height: 55vh;
 
     @include mobile {
+      display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 100% !important;
     }
 
     .box {
@@ -111,9 +68,13 @@
       justify-content: space-between;
 
       @include mobile {
-        border: none;
-        align-items: center;
-        gap: 20px;
+        min-width: 350px !important;
+        max-width: 350px !important;
+        // width: 10px !important;
+        margin: auto;
+        border: 0.5px solid gray !important;
+        // align-items: center;
+        // gap: 20px;
         padding: 10px;
       }
 
@@ -121,11 +82,21 @@
         // letter-spacing: 0.5px;
         margin: 6px;
         text-align: justify;
+
         @include mobile {
-          // display: none;
-          // font-size: 10px;
+          max-width: 300px !important;
+          margin: 0 !important;
+          display:flex !important;
+          flex-direction: column;
+          font-size: 10px !important;
           // margin: 6px;
-          // text-align: justify;
+          text-align: start !important;
+        }
+      }
+
+      span{
+        @include mobile{
+          display: none !important;
         }
       }
 

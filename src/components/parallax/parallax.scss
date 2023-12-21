@@ -5,18 +5,20 @@
   height: 100%;
   position: relative;
   display: flex;
-  align-items: center;
+  // align-items: center;
   justify-content: center;
   overflow: hidden;
 
   h1 {
+    margin-top: 7vw;
     font-size: 70px;
     text-align: center;
-    color: rgb(146, 157, 232);
+    color: rgb(149, 161, 245);
     z-index: 5;
 
     @include mobile {
-      font-size: 60px;
+      margin-top: 20vw;
+      font-size: 55px;
       text-align: center;
     }
   }

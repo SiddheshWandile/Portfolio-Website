@@ -58,7 +58,7 @@ const ServicesIntern = () => {
           <p>
             End Date: 25 July 2023
           </p>
-          <p>
+          <span>
            <ul>
             <li>
               Capable AICTE Approved Full Stack Development internship offering comprehensive training for engineering and technical students in India.
@@ -70,7 +70,7 @@ const ServicesIntern = () => {
               Innovatively designed and implemented an engaging Hangman game using Python.
             </li>
            </ul>
-          </p>
+          </span>
           <button><a href="https://www.linkedin.com/posts/siddheshwandile_capabl-intern-fullstackdeveloper-activity-7092026812762894336-beXw?utm_source=share&utm_medium=member_desktop">Certificate</a>
           </button>
         </motion.div>
@@ -89,7 +89,7 @@ const ServicesIntern = () => {
           <p>
             End Date: 2 July 2023
           </p>
-          <p>
+          <span>
            <ul>
             <li>
               Internpe program,a specialized internship catering to engineering and technical students in India
@@ -101,7 +101,7 @@ const ServicesIntern = () => {
               Played a vital role in the development and ongoing maintenance of diverse Java projects, demonstrating commitment to software development excellence.
             </li>
            </ul>
-          </p>
+          </span>
           <button><a href="https://www.linkedin.com/posts/siddheshwandile_internpe-activity-7081100720262828032-mGNT?utm_source=share&utm_medium=member_desktop">Certificate</a></button>
         </motion.div>
         <motion.div
@@ -118,7 +118,7 @@ const ServicesIntern = () => {
           <p>
             End Date: 15 Feb 2023
           </p>
-          <p>
+          <span>
            <ul>
             <li>
               Participated in the IBM Skillbuild internship under the AICTE umbrella, a dynamic training initiative tailored for engineering and technical students in India.
@@ -130,7 +130,7 @@ const ServicesIntern = () => {
               Developed a personal portfolio website to showcase my skills and experience as a UI designer
             </li>
            </ul>
-          </p>
+          </span>
           <button><a href="https://drive.google.com/file/d/1qeixQSF5sRxo8EGUGV3EiJXQ5TwS2SIo/view?usp=sharing">Certificate</a></button>
         </motion.div>
       </motion.div>

@@ -32,13 +32,13 @@ const Services = () => {
       ref={ref}
       animate={"animate"}
     >
-      <motion.div className="textContainer" variants={variants}>
+      {/* <motion.div className="textContainer" variants={variants}>
         <p>
           I focus on learn New Skills
           <br />and Expand my Knowledge
         </p>
         <hr />
-      </motion.div>
+      </motion.div> */}
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <h1>
@@ -63,12 +63,12 @@ const Services = () => {
           <p>
             CGPA: 7.95
           </p>
-          <p>
+          <span>
             Year of Passing: 2024
-          </p>
-          <p>
+          </span>
+          <span>
           Mechanical Engineering student proficient in SolidWorks, CAD, CATIA, and Fusion 360. Diversifying into software development with expertise in core Java, web development, DevOps, AWS, and Cloud Computing. Seamlessly merging traditional engineering with tech advancements, I aspire to innovate and contribute at the intersection of mechanical engineering and software development.
-          </p>
+          </span>
           <button>Go</button>
         </motion.div>
         <motion.div
@@ -85,12 +85,12 @@ const Services = () => {
           <p>
             Percentage: 67.08%
           </p>
-          <p>
+          <span>
             Year of Passing: 2020
-          </p>
-          <p>
+          </span>
+          <span>
           In my HSC, I honed vital life skills like problem-solving, time management, presentation, teamwork, and adaptability. Additionally, I ventured into technology, mastering Photoshop, Basic Computer Commands, and Windows navigation. This diverse skill set not only enhanced my academic journey but also prepared me for versatile challenges beyond the classroom.
-          </p>
+          </span>
           <button>Go</button>
         </motion.div>
         <motion.div
@@ -101,18 +101,18 @@ const Services = () => {
           <p>
             College: Deepchand Chaudhary Vidyalaya, Seloo 
           </p>
-          <p>
+          <span>
             Board: Maharashatra State Board
-          </p>
+          </span>
           <p>
             Percentage: 76.80%
           </p>
           <p>
             Year of Passing: 2018
           </p>
-          <p>
+          <span>
           In my SSC journey, I proudly secured the second rank in the Science Exhibition, showcasing my passion for innovation. As a standout hockey player, I excelled in sports, demonstrating my commitment to excellence. Additionally, my academic achievements were notable, earning me the second rank in mathematics within my School during the SSC exams.  
-          </p>
+          </span>
           <button>Go</button>
         </motion.div>
         {/* <motion.div
