@@ -41,7 +41,7 @@ const sliderVariants = {
   },
 };
 
-const downloadLink = 'https://drive.google.com/file/d/1Ui3wxAqKTAhhrbTDBBKxzxuO0ZCjJPZk/view?usp=drivesdk';
+const downloadLink = 'https://drive.google.com/file/d/1bS8dYfNabJLEMYI7ysciaLgFbWLZPMTg/view?usp=sharing';
 
 const handleButtonClick = () => {
   window.location.href = downloadLink;
